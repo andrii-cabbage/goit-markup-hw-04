@@ -33,6 +33,7 @@ h3{
 } 
 .header{
   border-bottom: 1px solid #e7e9fc;
+  box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 .header-logo{
   font-family: "Raleway", sans-serif;
@@ -66,11 +67,22 @@ h3{
  text-decoration: none;
  padding: 24px 0;
  display: block;
+ position: relative;
+ transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .header-menu-link:hover,
 .header-menu-link:focus{
   color: 
   #404bbf ;
+}
+.header-menu-link::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: -1px;
+  height: 4px;
+  background-color: #404bbf;
+  border-radius: 2px;
 }
 
 
@@ -79,6 +91,7 @@ h3{
   font-weight: 500;
   display: flex;
   gap: 40px;
+  
 }
 .header-adress-list{
   color: #2e2f42;
@@ -96,6 +109,7 @@ h3{
   font-style: normal;
   text-decoration: none;
   padding: 24px 0;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .header-adress-item:hover,
@@ -110,7 +124,8 @@ h3{
   background-image: linear-gradient( rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office.jpg);  
   background-repeat: no-repeat;
   background-size: cover;
-  
+  max-width: 1440px;
+  background-position: center;
   
 }
 .hero-title {
@@ -141,6 +156,7 @@ h3{
   border-radius: 4px;
   margin-right: auto;
   margin-left: auto;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .hero-button:hover,
 .hero-button:focus{
@@ -364,8 +380,8 @@ h3{
 .footer-wrap {
     display: flex;
 }
-.footer-right {
-  margin-left: 120px;
+.footer-left {
+  margin-right: 120px;
 }
 .footer-social {
   margin-bottom: 16px;
