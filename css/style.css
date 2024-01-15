@@ -51,6 +51,7 @@ h3{
   color: #2E2F42;
   text-decoration: none;
   padding: 24px 0;
+  color: #404bbf;
 }
 .header-menu{
   display: flex;
@@ -391,7 +392,7 @@ h3{
   letter-spacing: 0.03em;
   color: #4D5AE5;
   display: inline-block;
-  margin-bottom: 8px;
+  margin-bottom: 16px;
   text-decoration: none;
   text-transform: uppercase;
 }
