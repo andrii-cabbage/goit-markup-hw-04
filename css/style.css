@@ -64,7 +64,7 @@ h3{
   content: "";
   position: absolute;
   border-radius: 2px;
-  background: #404bbf;
+  color: #404bbf;
   left: 0;
   bottom: -1px;
   width: 48px;
