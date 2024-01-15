@@ -410,12 +410,10 @@ h3{
   letter-spacing: 0.03em;
   color: #4D5AE5;
   display: inline-block;
-  margin-bottom: 8px;
   text-decoration: none;
   text-transform: uppercase;
 }
 .footer-link{
-  margin-bottom: 16px;
   display: inline-block;
 }
 .footer-logo-item{
