@@ -52,6 +52,34 @@ h3{
   text-decoration: none;
   padding: 24px 0;
 }
+.header-menu-link{
+  color:  #2e2f42 ;
+  font-family: Roboto;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 500;
+  letter-spacing: 0.02em;
+  font-style: normal;
+  text-decoration: none;
+  padding: 24px 0;
+  display: block;
+  position: relative;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+ }
+ .header-menu-link:hover,
+ .header-menu-link:focus{
+   color: 
+   #404bbf ;
+ }
+ .header-menu-link::after {
+   content: '';
+   position: absolute;
+   left: 0;
+   bottom: -1px;
+   height: 4px;
+   background-color: #404bbf;
+   border-radius: 2px;
+ }
 .nav-menu-link {
   text-decoration: none;
   color: #404bbf;
@@ -74,34 +102,7 @@ h3{
   display: flex;
   gap: 40px;
 }
-.header-menu-link{
- color:  #2e2f42 ;
- font-family: Roboto;
- font-size: 16px;
- line-height: 24px;
- font-weight: 500;
- letter-spacing: 0.02em;
- font-style: normal;
- text-decoration: none;
- padding: 24px 0;
- display: block;
- position: relative;
- transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-.header-menu-link:hover,
-.header-menu-link:focus{
-  color: 
-  #404bbf ;
-}
-.header-menu-link::after {
-  content: '';
-  position: absolute;
-  left: 0;
-  bottom: -1px;
-  height: 4px;
-  background-color: #404bbf;
-  border-radius: 2px;
-}
+
 
 
 .header-adress{
