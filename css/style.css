@@ -71,6 +71,12 @@ h3{
    color: 
    #404bbf ;
  }
+
+ .header-menu {
+  display: flex;
+  gap: 40px;
+}
+
  .header-menu-link::after {
    content: '';
    position: absolute;
@@ -98,12 +104,6 @@ h3{
   width: 48px;
   height: 4px;
 }
-.header-menu{
-  display: flex;
-  gap: 40px;
-}
-
-
 
 .header-adress{
   font-style: normal;
