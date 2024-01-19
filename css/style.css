@@ -16,10 +16,11 @@ img{
   padding: 0 15px 0 15px;
   margin: 0 auto;
 }
-h1
-h2
-h3{
-  
+h1,
+h2,
+h3,
+p {
+ margin: 0;
 }
 /* HEADER */
 .header-container{
